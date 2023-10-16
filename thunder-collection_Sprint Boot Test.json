@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Sprint Boot Test",
+    "dateExported": "2023-10-16T04:26:40.187Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2ad3604c-682a-47e7-a2aa-c7c42fa3b34a",
+            "colId": "10c55edb-415c-4a29-a6b2-7bc04a533b8b",
+            "containerId": "",
+            "name": "Create User",
+            "url": "http://localhost:8080/users/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-16T00:40:08.787Z",
+            "modified": "2023-10-16T02:26:29.198Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Marcela\",\n  \"password\": \"teste\",\n  \"birthData\": {{#date}},\n  \"address\": {\n    \"address\": \"Av. Fermín Vivaceta 480\",\n    \"city\": \"Vitoria\",\n    \"state\": \"ES\",\n    \"country\": \"Brasil\",\n    \"number\": 480\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8d7797c5-4779-40e3-9d12-201672364cc3",
+            "colId": "10c55edb-415c-4a29-a6b2-7bc04a533b8b",
+            "containerId": "",
+            "name": "Update User",
+            "url": "http://localhost:8080/users/4",
+            "method": "PUT",
+            "sortNum": 17500,
+            "created": "2023-10-16T01:21:57.860Z",
+            "modified": "2023-10-16T04:25:53.844Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Marcelo\",\n  \"password\": \"senha1612\",\n  \"birthData\": {{#date}},\n  \"address\": {\n    \"address\": \"Av. Fermín Vivaceta 480\",\n    \"city\": \"Vitoria\",\n    \"state\": \"ES\",\n    \"country\": \"Brasil\",\n    \"number\": 470\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "56bb8d26-ff31-4b01-8b44-91b2dfc7c370",
+            "colId": "10c55edb-415c-4a29-a6b2-7bc04a533b8b",
+            "containerId": "",
+            "name": "Delete user",
+            "url": "http://localhost:8080/users/3",
+            "method": "DELETE",
+            "sortNum": 21250,
+            "created": "2023-10-16T01:25:59.536Z",
+            "modified": "2023-10-16T02:59:23.664Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8b2b4d99-63f8-49b7-9e31-5e3da42fa53d",
+            "colId": "10c55edb-415c-4a29-a6b2-7bc04a533b8b",
+            "containerId": "",
+            "name": "List all users",
+            "url": "http://localhost:8080/users/",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-10-16T01:00:20.672Z",
+            "modified": "2023-10-16T01:00:36.265Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fe385977-c6f0-4347-a815-5c129243b90c",
+            "colId": "10c55edb-415c-4a29-a6b2-7bc04a533b8b",
+            "containerId": "",
+            "name": "Get user",
+            "url": "http://localhost:8080/users/3",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-10-16T01:06:58.639Z",
+            "modified": "2023-10-16T02:57:45.994Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
